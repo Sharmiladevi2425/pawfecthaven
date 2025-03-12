@@ -1,0 +1,39 @@
+*{
+}
+.footer-container{
+    background: #FF4E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.footer-container ul li{
+    list-style: none;
+   
+}
+.footer-container button{
+    border-radius: 18px;
+background-color: orange;  
+  padding: 10px 30px 10px 30px;
+margin: 20px;
+color: antiquewhite;
+font-size: medium;
+
+
+}
+.footer-container input{
+    border-radius: 18px;
+    padding: 10px 30px 10px 30px;
+
+}
+.footer-container button:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+.footer-container ul li:hover{
+    color: antiquewhite;
+
+}
