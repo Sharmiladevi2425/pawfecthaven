@@ -14,11 +14,17 @@ import Shipping from "../Assets/17843261.png"
 import Return from "../Assets/11202519.png"
 import Support from "../Assets/5178386.png"
 import Secured from "../Assets/6992183.png"
+import catdry1 from "../Assets/drycatfood1.png"
+import caytdry2 from "../Assets/drycatfood2.png"
 
-  const Home=()=>{
+  function Home(){
+    const catFoodItems=[
+      { id:1,src:caytdry2,alt:"dryfood2"},
+      {id:2,src:catdry1,alt:"dryfood1"}
+    ];
     return(
       <div className="home-container">
-      <Navbar />
+      
   <div className="home-banner-container">
     <div className="home-image-container">
       <img  className=" img1"  src={Bannerimg} alt= " " />
@@ -35,7 +41,8 @@ import Secured from "../Assets/6992183.png"
       </div>
     </div>
     <div className="pets-img-container">
-<img className="Cat" src={Cat}/>
+     <Link to="/Cat"> 
+<img className="Cat" src={Cat}/></Link>
 <img className="Dog" src={Dog}/>
 <img className="Fish" src={Fish}/>
 <img className="Parrot" src={Parrot}/>
@@ -89,18 +96,47 @@ import Secured from "../Assets/6992183.png"
 </div>
  </div>
 
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
+<div className="cat-products-container" >
+ <div className="cat-cart">
+  <div className="cat-food">
+<img src={catdry1}/>
+<p>$853.93</p>
+<p>Whiskas Mackerel Flavour</p>
+  </div>
+  </div>
+  <div className="cat-cart">
+  <div className="cat-food">
+<img src={catdry1}/>
+<p>$853.93</p>
+<p>Whiskas Mackerel Flavour</p>
+  </div></div>
+  <div className="cat-cart">
+  <div className="cat-food">
+<img src={catdry1}/>
+<p>$853.93</p>
+<p>Whiskas Mackerel Flavour</p>
+  </div>
+  </div>
+  <div className="cat-cart">
+  <div className="cat-food">
+<img src={catdry1}/>
+<p>$853.93</p>
+<p>Whiskas Mackerel Flavour</p>
+  </div>
+  </div>
+  <div className="cat-cart">
+  <div className="cat-food">
+<img src={catdry1}/>
+<p>$853.93</p>
+<p>Whiskas Mackerel Flavour</p>
+  </div>
+  </div>
+ { /*<div> {catFoodItems.map((item)=>(
+    <img key={item.id} src={item.src} alt={item.alt}/>
+ ))}</div>
+ */}
 </div>
 
 <Footer />
@@ -109,7 +145,7 @@ import Secured from "../Assets/6992183.png"
   
 
    
-    );
+    )
   }
 
 export default Home;

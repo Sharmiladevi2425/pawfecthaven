@@ -14,7 +14,16 @@ function Navbar() {
         <a href='/'> HOME</a>
     </Link>
     <Link to='/'>
-    <a href='/'> SHOP</a>
+    <a href='/'> DOG</a>
+    </Link>
+    <Link to='/Cat'>
+    <a href='/Cat'> CAT</a>
+    </Link>
+    <Link to='/'>
+    <a href='/'> BIRDS</a>
+    </Link>
+    <Link to='/'>
+    <a href='/'> FISH</a>
     </Link>
     <Link to='/'>
     <a href='/'> CONSULT</a>

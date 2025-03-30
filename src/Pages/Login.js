@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
 import './home.css';
+import orangepaw from "../Assets/orangepaw.jpg"
 import singindog from "../Assets/signin pic.jpg"
 import pawprint from "../Assets/blue.jpeg"
 import dogblue from "../Assets/360_F_418068474_VIWD3loz21dusicbe43VnAsAc9uZudyF.jpg"
@@ -16,7 +17,7 @@ function Login() {
       password:" ",
     });
     const myStyle={
-      backgroundImage:`url(${bluepaw})`,
+      backgroundImage:`url(${orangepaw})`,
       backgroundSize:"auto",
       backgroundRepeat: "repeat",
       backgroundPosition:"top left",

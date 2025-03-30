@@ -1,0 +1,40 @@
+.cat{
+    background-color: #FEE8D6;
+    padding-top: 50px;
+}
+.cat-page-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px black;
+    
+
+  }
+  .cat-card{
+    display: flex;
+   border-radius: 2px;
+   text-align: center;
+   padding: 10px;
+   margin: 20px;
+  
+  
+
+  }
+  .cat-page-foods {
+    position: relative;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 220px; 
+  }
+  .cat-page-foods img{
+    height:200px;
+    width:200px;
+   
+  }
+  .heart-icon{
+    position: absolute;
+   right:10px;
+  }

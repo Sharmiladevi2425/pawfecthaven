@@ -193,6 +193,29 @@
   justify-content: space-between;
   padding: 20px;
 }
+.cat-card{
+  display: flex;
+ border-radius: 2px;
+ text-align: center;
+ padding: 10px;
+ margin: 20px;
+
+
+
+}
+.cat-foods {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 220px; 
+}
+.cat-foods img{
+  height:200px;
+  width:200px;
+ 
+}
 .card{
   background-color: orange;
   border-radius: 10px ;
@@ -217,7 +240,16 @@
   background: linear-gradient(45deg, #ff9800, #ff5722);
   
 }
-
+.cat-products-container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cat-food img{
+  
+  height:200px;
+  width:200px
+}
 
 
 
