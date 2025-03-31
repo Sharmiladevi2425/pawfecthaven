@@ -7,7 +7,6 @@ import singindog from "../Assets/signin pic.jpg"
 import pawprint from "../Assets/blue.jpeg"
 import dogblue from "../Assets/360_F_418068474_VIWD3loz21dusicbe43VnAsAc9uZudyF.jpg"
 import dogsignin from "../Assets/signin.jpg"
-import dogbluebg from "../Assets/DALL·E 2025-03-09 23.47.34 - A cute dog sitting on a solid #b7e1ed background. The dog is friendly and fluffy, looking directly at the viewer with a happy expression. The backgrou.webp"
 import bluepaw from "../Assets/bluepaw.jpeg"
 
 function Login() {
